@@ -20,11 +20,13 @@ public class NewTest {
 	  System.out.println("tite of page is"+title);
 		assertTrue(title.contains("Demo Guru99 Page")); 
 		System.out.println("test is successfully executed");
+		System.out.println("test 1 is passed");
   }
   @BeforeTest
   public void beforeTest() {
 	  driver=new FirefoxDriver();
 	  System.out.println("firefox opened");
+	  System.out.println("before test is passed");
   }
 
   @AfterTest
